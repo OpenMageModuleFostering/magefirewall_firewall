@@ -317,7 +317,7 @@ function nf_check_upload() {
    if ($tmp) {
 		if ($MagenfCheckDebug) { $nfdebug.= '[FAIL]   file upload attempt : '. nf_bin2hex_string($tmp) . ETAG; }
 		nf_write2log('File upload attempt', rtrim($tmp, ' '), 2, 0);
-		nf_block();
+		//nf_block();
 	}
 
    if ($MagenfCheckDebug) { $nfdebug.= '[----]   upload field is empty' . ETAG; }
