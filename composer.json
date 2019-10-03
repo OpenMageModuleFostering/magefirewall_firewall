@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/MageFirewall_Firewall",
+    "name": "OpenMageModuleFostering\/MageFirewall_Firewall",
     "type": "magento-module",
     "license": "OSL-v.-3.0",
     "homepage": "",
     "description": "Opensource Magento Firewall for securing your e-commerce system.",
     "authors": [
-    {
-        "name": "paimpozhil",
-        "email": "paimpozhil@gmail.com"
-    }
-],
+        {
+            "name": "paimpozhil",
+            "email": "paimpozhil@gmail.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }
